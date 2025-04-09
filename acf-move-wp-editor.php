@@ -24,6 +24,9 @@ if (!class_exists('init')) {
         /**
          * Construct
          */
+        // Declare the property explicitly (public, private, or protected as needed)
+        public $settings;
+        
         public function __construct()
         {
             $this->settings = [
